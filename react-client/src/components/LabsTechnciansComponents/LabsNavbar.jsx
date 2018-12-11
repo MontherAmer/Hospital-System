@@ -133,6 +133,7 @@ componentDidMount() {
       console.log(err);
     }
   });
+}
 render() {
 const { classes } = this.props;
 const { auth, anchorEl } = this.state;
